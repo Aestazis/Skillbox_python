@@ -28,6 +28,9 @@ print(type(pirozhok))
 print(isinstance(batat, int))
 # выводится True или False в зависимости от типа переменной
 
+print(id(batat))
+# выводится id объекта за переменной в оперативной памяти
+
 
 
 
