@@ -31,12 +31,7 @@ point = (23, 34)
 # Мой код
 coordinate = round(((23 ** 2 + 34 ** 2) ** 0.5))
 # 41 - где находится точка
-result = (radius - coordinate)
-if result >= 0:
-    print(True)
-else:
-    print(False)
-
+print(radius >= coordinate)
 
 
 # Аналогично для другой точки
@@ -47,11 +42,7 @@ point_2 = (30, 30)
 # Мой код
 coordinate2 = round(((30 ** 2 + 30 ** 2) ** 0.5))
 # 42 - где находится 2 точка
-result2 = (radius - coordinate2)
-if result2 >= 0:
-    print(True)
-else:
-    print(False)
+print(radius >= coordinate2)
 
 
 # Пример вывода на консоль:
