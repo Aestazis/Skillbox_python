@@ -169,6 +169,7 @@ print(my_set - other_set) # попали только те элементы из
 #.pop() discard() - удаление из множества
 #.update() - обновление
 
+#from pprint import pprint - pprint пишет в строку в словаре
 
 
 
