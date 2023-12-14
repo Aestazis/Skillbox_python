@@ -107,7 +107,7 @@ chair_price2 = chair_item2['price']
 chair_price3 = chair_item3['price']
 general_col = chair_col1 + chair_col2 + chair_col3
 general_price = chair_price1 + chair_price2 + chair_price3
-print('Кресло -', general_col, 'шт. Стоимость -', general_col * general_price, 'руб')
+print('Стул -', general_col, 'шт. Стоимость -', general_col * general_price, 'руб')
 
 
 
