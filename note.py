@@ -172,6 +172,17 @@ print(my_set - other_set) # попали только те элементы из
 
 #from pprint import pprint - pprint пишет в строку в словаре
 
+# вычисление общего роста на примере домашки
+family = [['father', 180],
+          ['monther', 160]]
+height = family[0][1]
+height = height + family[1][1]
+# или можно записать
+height += family[1][1]
+print(height)
+
+
+
 
 
 
