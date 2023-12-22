@@ -181,6 +181,50 @@ height = height + family[1][1]
 height += family[1][1]
 print(height)
 
+# break
+my_pets = ['cat', 'dog', 'hamster']
+i = 0
+while i < len(my_pets):
+    pet = my_pets[i]
+    print('вытащили', pet)
+    if pet == 'cat':
+        print('это кот')
+        break
+    i = i + 1
+print('конец')
+# Если в списке есть кот, выводит что нашли и заканчивает цикл
+
+my_pets = ['dog', 'hamster']
+i = 0
+while i < len(my_pets):
+    pet = my_pets[i]
+    print('вытащили', pet)
+    if pet == 'cat':
+        print('это кот')
+        break
+    i = i + 1
+else:
+    print('не нашли...')
+print('конец')
+# Если кота нет, выводит через else что не нашли.
+
+# continue
+my_pets = ['dog', 'lion', 'skunk', 'hamster', 'cat', 'monkey']
+i = -1
+while i < len(my_pets):
+    i = i + 1
+    if i == 2:
+        continue
+    pet = my_pets[i]
+    print('вытащили', pet)
+    if pet == 'cat':
+        print('это кот')
+        break
+else:
+    print('не нашли...')
+print('конец')
+# когда i становится 2, то цикл начинается заново, не проходя дальше continue
+
 
 
 
