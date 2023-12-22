@@ -1,7 +1,7 @@
 print('==Регистрация нового пользователя==')
 username = 'хуй'
 password = 'хуй'
-repeat_password = ''
+repeat_password = 'пизда'
 
 while username == 'хуй':
     username = input('Введите имя пользователя: ')
@@ -18,8 +18,8 @@ print('==Успешная регистрация==')
 print()
 repeat_password = password
 
-i_user = ''
-i_pass = ''
+i_user = 'хуй'
+i_pass = 'пизда'
 while i_user != username or i_pass != password:
     i_user = input('Введите имя пользователя: ')
     i_pass = input('Введите пароль: ')
